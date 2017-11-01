@@ -1,0 +1,46 @@
+* {
+  background: rgba(0, 0, 0, .02);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.wrap {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+}
+
+.navbar,
+.header {
+  text-align: center;
+}
+
+.navbar {
+  background: #f88;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header {
+  padding: 20px 0;
+  color: #555;
+  font-size: 18px;
+}
